@@ -182,6 +182,15 @@ main {
 #times h3 {
   color: #fafafa;
 }
+/* Gallery Styles */
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
 
 /* Footer */
 #social-networks {
