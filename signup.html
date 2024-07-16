@@ -42,21 +42,21 @@
             <label for="email-address" id="email-address">Email Address</label><br>
             <input  class="text-input" type="email" id="email-address" name="email-address" required><br>
             <!-- RADI0 BUTTONS-->
-            <div class=""radio-buttons>
-            <div id="road">
-            <label for="running-preference" id="road">Road</label>
-            <input  class="radio-buttons" type="radio" id="road" name="running-preference" checked="checked">
+            <div class="radio-buttons">
+                <div>
+                    <label for="road">Road</label>
+                    <input type="radio" name="running_preference" id="road" value="road" required checked>
+                </div>
+                <div>
+                    <label for="trail">Trail</label>
+                    <input type="radio" name="running_preference" id="trail" value="trail" required>
+                </div>
+                <div>
+                    <label for="both">Both</label>
+                    <input type="radio" name="running_preference" id="both" value="both" required>
+                </div>
             </div>
-            <div id="trail">
-            <label for="running-preference" id="trail">Trail</label>
-            <input  class="radio-buttons" type="radio" id="trail" name="running-preference">
-            </div>
-            <div id="both">
-            <label for="running-preference" id="both">Both</label>
-            <input  class="radio-buttons" type="radio" id="both" name="running-preference">
-            </div>
-            </div>
-            <button class="join-button" type="submit" name="join-button">Let's Run!</button>
+            <button type="submit" class="join-button">Let's Run!</button>
         </form>
     </section>
 </main>
