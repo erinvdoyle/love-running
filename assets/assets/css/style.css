@@ -100,7 +100,7 @@ main {
 #hero {
   height: 600px;
   width: 100%;
-  background: url("../../images/hero-image.webp") no-repeat center center/cover;
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
   position: relative;
 }
 
@@ -147,7 +147,7 @@ main {
 }
 
 #circle-cover-bg {
-  background: url("../../images/reasons-image.webp") no-repeat top center/cover;
+  background: url("../images/reasons-image.webp") no-repeat top center/cover;
   height: 90vw;
   width: 90vw;
   margin-bottom: 20px;
@@ -164,7 +164,7 @@ main {
 
 /* Meet-up Times Section */
 #times {
-  background: url("../../images/dublin-city.webp") no-repeat center center/cover;
+  background: url("../images/dublin-city.webp") no-repeat center center/cover;
   display: flex;
   flex-wrap: wrap;
 }
@@ -215,7 +215,7 @@ main {
 }
 
 #signup {
-  background-image: url("../../images/signup-image.webp");
+  background-image: url("../images/signup-image.webp");
   background-size: cover;
   background-position: 75%;
   flex-grow: 1;
