@@ -215,7 +215,7 @@ main {
 }
 
 #signup {
-  background-image: url("assets/assets/images/signup-image.webp");
+  background-image: url("../images/signup-image.webp");
   background-size: cover;
   background-position: 75%;
   flex-grow: 1;
